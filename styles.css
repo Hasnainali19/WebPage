@@ -154,18 +154,18 @@ button {
 
 .profile {
   display: flex;
-  gap: 16px;
+  gap: 20px;
   align-items: center;
   margin-bottom: 24px;
 }
 
 .avatar-image {
-  width: 54px;
-  height: 54px;
-  border-radius: 18px;
+  width: 108px;
+  height: 108px;
+  border-radius: 28px;
   object-fit: cover;
-  border: 2px solid rgba(108, 123, 255, 0.6);
-  box-shadow: 0 10px 20px rgba(8, 12, 28, 0.35);
+  border: 3px solid rgba(108, 123, 255, 0.7);
+  box-shadow: 0 16px 28px rgba(8, 12, 28, 0.45);
 }
 
 .highlight {
