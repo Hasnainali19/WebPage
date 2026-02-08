@@ -1,0 +1,14 @@
+<svg width="320" height="240" viewBox="0 0 320 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="veraGradient" x1="40" y1="32" x2="280" y2="208" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C7BFF"/>
+      <stop offset="1" stop-color="#38D9C6"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="240" rx="28" fill="url(#veraGradient)"/>
+  <rect x="28" y="28" width="264" height="184" rx="20" fill="rgba(9, 12, 24, 0.32)"/>
+  <circle cx="108" cy="120" r="40" fill="rgba(255, 255, 255, 0.22)"/>
+  <rect x="164" y="92" width="104" height="16" rx="8" fill="rgba(255, 255, 255, 0.6)"/>
+  <rect x="164" y="120" width="74" height="12" rx="6" fill="rgba(255, 255, 255, 0.45)"/>
+  <rect x="164" y="144" width="90" height="12" rx="6" fill="rgba(255, 255, 255, 0.35)"/>
+</svg>

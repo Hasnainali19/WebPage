@@ -1,0 +1,15 @@
+<svg width="320" height="240" viewBox="0 0 320 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="northGradient" x1="32" y1="40" x2="288" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8F9BFF"/>
+      <stop offset="1" stop-color="#F0A6FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="240" rx="28" fill="url(#northGradient)"/>
+  <rect x="30" y="30" width="260" height="180" rx="22" fill="rgba(9, 12, 24, 0.3)"/>
+  <rect x="56" y="64" width="80" height="80" rx="16" fill="rgba(255, 255, 255, 0.2)"/>
+  <rect x="154" y="72" width="108" height="14" rx="7" fill="rgba(255, 255, 255, 0.6)"/>
+  <rect x="154" y="96" width="84" height="10" rx="5" fill="rgba(255, 255, 255, 0.45)"/>
+  <rect x="154" y="118" width="96" height="10" rx="5" fill="rgba(255, 255, 255, 0.35)"/>
+  <rect x="56" y="158" width="206" height="18" rx="9" fill="rgba(255, 255, 255, 0.25)"/>
+</svg>

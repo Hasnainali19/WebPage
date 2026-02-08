@@ -1,0 +1,14 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paint0" x1="40" y1="40" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C7BFF"/>
+      <stop offset="1" stop-color="#F0A6FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="72" fill="url(#paint0)"/>
+  <circle cx="120" cy="98" r="44" fill="rgba(11, 15, 26, 0.22)"/>
+  <path d="M48 198C56 160 84 140 120 140C156 140 184 160 192 198" fill="rgba(11, 15, 26, 0.22)"/>
+  <text x="120" y="210" text-anchor="middle" fill="white" font-family="Manrope, Arial, sans-serif" font-size="20" font-weight="700">
+    Your Image
+  </text>
+</svg>
