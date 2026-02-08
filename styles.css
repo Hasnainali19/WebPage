@@ -243,13 +243,64 @@ button {
 
 .project-list {
   display: grid;
-  gap: 16px;
+  gap: 18px;
 }
 
-.project-list article {
+.project-card {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 18px;
   background: rgba(10, 14, 30, 0.8);
   padding: 16px;
-  border-radius: 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 30px rgba(6, 9, 22, 0.45);
+}
+
+.project-card img {
+  width: 100%;
+  height: 96px;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+.project-card-body {
+  display: grid;
+  gap: 6px;
+}
+
+.project-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.project-link {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #8f9bff;
+}
+
+.project-meta {
+  font-size: 0.85rem;
+  color: #9fa9c4;
+}
+
+.project-note {
+  margin-top: 16px;
+  font-size: 0.85rem;
+  color: #9fa9c4;
+}
+
+.project-note code {
+  color: #d7dcf5;
 }
 
 .skills {
