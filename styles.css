@@ -159,15 +159,13 @@ button {
   margin-bottom: 24px;
 }
 
-.avatar {
-  background: linear-gradient(135deg, #6c7bff, #f0a6ff);
+.avatar-image {
   width: 54px;
   height: 54px;
   border-radius: 18px;
-  display: grid;
-  place-items: center;
-  font-weight: 800;
-  color: #0b0f1a;
+  object-fit: cover;
+  border: 2px solid rgba(108, 123, 255, 0.6);
+  box-shadow: 0 10px 20px rgba(8, 12, 28, 0.35);
 }
 
 .highlight {
